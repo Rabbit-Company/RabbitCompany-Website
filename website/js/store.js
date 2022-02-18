@@ -1,5 +1,5 @@
 var products = {
-  "prod_LAcysOLO3rjDbk": {
+  "1": {
     "storeID": 1,
     "name": "Rabbit Logo T-Shirt",
     "description": "The Unisex Staple T-Shirt feels soft and light with just the right amount of stretch. It's comfortable and flattering for all.",
@@ -27,6 +27,38 @@ var products = {
           "L": "28o1585gkbbTh2gdRh",
           "XL": "dR64hkcIMdk127mcNe",
           "2XL": "aEU4hk104bbTdQ43cF"
+        }
+      }
+    }
+  },
+  "2": {
+    "storeID": 1,
+    "name": "Passky Logo T-Shirt",
+    "description": "The Unisex Staple T-Shirt feels soft and light with just the right amount of stretch. It's comfortable and flattering for all.",
+    "price": "$29.99",
+    "variants": {
+      "Black": {
+        "color": "bg-gray-900",
+        "image": "images/products/passky-logo-t-shirt-black.png",
+        "size": {
+          "XS": "14k5loeQU2Fnh2g14y",
+          "S": "9AQ5lobEIa7P8vK14z",
+          "M": "7sI014248fs95jy3cI",
+          "L": "9AQbJM6koeo5cM014B",
+          "XL": "14k6psdMQ3JrbHW4gO",
+          "2XL": "7sI3dg248dk1aDS9B9"
+        }
+      },
+      "White": {
+        "color": "bg-gray-100",
+        "image": "images/products/passky-logo-t-shirt-white.png",
+        "size": {
+          "XS": "3cscNQ104eo59zO6oY",
+          "S": "28oaFI6ko5Rz5jy3cN",
+          "M": "aEUcNQ38ccfXdQ47t4",
+          "L": "eVa4hkaAE1BjfYc6p1",
+          "XL": "3cs158248fs96nCeVy",
+          "2XL": "3cs15810493L7rG3cR"
         }
       }
     }
