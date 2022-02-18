@@ -62,5 +62,37 @@ var products = {
         }
       }
     }
+  },
+  "3": {
+    "storeID": 1,
+    "name": "Bitcoin T-Shirt",
+    "description": "The Unisex Staple T-Shirt feels soft and light with just the right amount of stretch. It's comfortable and flattering for all.",
+    "price": "$29.99",
+    "variants": {
+      "Black": {
+        "color": "bg-gray-900",
+        "image": "images/products/bitcoin-t-shirt-black.png",
+        "size": {
+          "XS": "3cs014fUY7ZH13icNs",
+          "S": "14kaFIcIMgwd5jy8xd",
+          "M": "dR66ps9wA3Jr6nC8xe",
+          "L": "7sI014fUYfs9dQ400J",
+          "XL": "8wM3dg7osgwd6nCdRA",
+          "2XL": "00g5lo38c2FnbHW28T"
+        }
+      },
+      "White": {
+        "color": "bg-gray-100",
+        "image": "images/products/bitcoin-t-shirt-white.png",
+        "size": {
+          "XS": "3csbJM6ko3Jr9zO7te",
+          "S": "5kAeVY8sw1BjeU85l7",
+          "M": "eVa3dgcIM6VD27m4h4",
+          "L": "5kA8xAcIM2Fn5jy00P",
+          "XL": "8wMcNQ2483Jrh2g00Q",
+          "2XL": "3cs29cdMQ6VDaDS28Z"
+        }
+      }
+    }
   }
 }
