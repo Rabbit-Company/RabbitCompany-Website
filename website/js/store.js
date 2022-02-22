@@ -127,4 +127,36 @@ var products = {
       }
     }
   },
+  "5": {
+    "storeID": 1,
+    "name": "Rabbit Hosting T-Shirt",
+    "description": "The Unisex Staple T-Shirt feels soft and light with just the right amount of stretch. It's comfortable and flattering for all.",
+    "price": "$29.99",
+    "variants": {
+      "Black": {
+        "color": "bg-gray-900",
+        "image": "images/products/rabbit-hosting-t-shirt-black.png",
+        "size": {
+          "XS": "9AQ29c104bbTcM08xA",
+          "S": "8wM7twaAEcfXdQ4aFJ",
+          "M": "6oE9BE8swcfX4fu9BG",
+          "L": "cN2g02eQUdk1fYccNT",
+          "XL": "dR67tw9wAa7PbHW9BI",
+          "2XL": "bIY29c4cg2Fn13i019"
+        }
+      },
+      "White": {
+        "color": "bg-gray-100",
+        "image": "images/products/rabbit-hosting-t-shirt-white.png",
+        "size": {
+          "XS": "fZe7twaAE0xf27m9BK",
+          "S": "aEUeVYaAE0xfh2g5lv",
+          "M": "3cs8xA248cfX7rG15g",
+          "L": "eVacNQ38cbbT8vK01d",
+          "XL": "14kbJMcIM7ZH13i6pC",
+          "2XL": "8wM3dg4cg5Rz13idS5"
+        }
+      }
+    }
+  }
 }
