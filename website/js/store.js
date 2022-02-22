@@ -94,5 +94,37 @@ var products = {
         }
       }
     }
-  }
+  },
+  "4": {
+    "storeID": 1,
+    "name": "Rabbit Company T-Shirt",
+    "description": "The Unisex Staple T-Shirt feels soft and light with just the right amount of stretch. It's comfortable and flattering for all.",
+    "price": "$29.99",
+    "variants": {
+      "Black": {
+        "color": "bg-gray-900",
+        "image": "images/products/rabbit-company-t-shirt-black.png",
+        "size": {
+          "XS": "6oEdRUbEI93L6nC8xo",
+          "S": "cN25lobEI0xf3bq9Bt",
+          "M": "00gg02fUY4Nv3bqbJC",
+          "L": "00g3dg5gkfs94fufZT",
+          "XL": "bIYeVYaAE3JreU8cNI",
+          "2XL": "9AQ3dgdMQ6VDdQ4dRN"
+        }
+      },
+      "White": {
+        "color": "bg-gray-100",
+        "image": "images/products/rabbit-company-t-shirt-white.png",
+        "size": {
+          "XS": "3csaFI38c2Fnh2g5li",
+          "S": "9AQ4hkcIM1BjcM000Z",
+          "M": "6oE6pscIMbbT13idRQ",
+          "L": "eVa4hkcIMa7P5jyeVV",
+          "XL": "5kA7tw2483Jr4fu6pq",
+          "2XL": "4gw8xA248gwdh2gg01"
+        }
+      }
+    }
+  },
 }
