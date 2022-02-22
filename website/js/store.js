@@ -158,5 +158,37 @@ var products = {
         }
       }
     }
+  },
+  "6": {
+    "storeID": 1,
+    "name": "Passky T-Shirt",
+    "description": "The Unisex Staple T-Shirt feels soft and light with just the right amount of stretch. It's comfortable and flattering for all.",
+    "price": "$29.99",
+    "variants": {
+      "Black": {
+        "color": "bg-gray-900",
+        "image": "images/products/passky-t-shirt-black.png",
+        "size": {
+          "XS": "bIY6ps7osfs9bHW7tI",
+          "S": "9AQ7tw8sw3Jr5jy8xN",
+          "M": "cN24hk8sweo53bq3du",
+          "L": "eVa158gZ293LaDS5lD",
+          "XL": "6oEdRU4cg93L13i15o",
+          "2XL": "cN23dg6kofs94fueWf"
+        }
+      },
+      "White": {
+        "color": "bg-gray-100",
+        "image": "images/products/passky-t-shirt-white.png",
+        "size": {
+          "XS": "8wMdRUfUY0xfh2g6pK",
+          "S": "cN25lo7os2FnaDSeWh",
+          "M": "aEU29c38c2Fn4fubK6",
+          "L": "aEUg028sw3JrcM0eWj",
+          "XL": "00g6psgZ2dk18vK4hG",
+          "2XL": "eVa014cIMeo5eU8eWl"
+        }
+      }
+    }
   }
 }
