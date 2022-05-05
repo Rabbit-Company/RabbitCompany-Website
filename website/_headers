@@ -5,3 +5,4 @@
   X-XSS-Protection: 1; mode=block
   Content-Security-Policy: default-src 'self'; script-src 'report-sample' 'self' https://analytics.rabbit-company.com; style-src 'report-sample' 'self'; object-src 'none'; base-uri 'self'; connect-src 'self' https://analytics.rabbit-company.com; font-src 'self'; frame-src 'self'; img-src 'self'; manifest-src 'self'; media-src 'self'; worker-src 'none'; frame-ancestors 'none';
   Permissions-Policy: interest-cohort=()
+  Onion-Location http://y77wlsplhrbdbclu7pqmxgg3d3m6habltohjbuf3ww5w2cvqzqv6nfqd.onion
