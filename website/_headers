@@ -2,5 +2,5 @@
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 1; mode=block
-  Content-Security-Policy: default-src 'self'; script-src 'report-sample' 'self' https://cdn.sellix.io https://static.cloudflareinsights.com; style-src 'report-sample' 'self' 'unsafe-inline' https://cdn.sellix.io; object-src 'none'; base-uri 'self'; connect-src 'self' https://cloudflareinsights.com; font-src 'self'; frame-src 'self' https://cdn.sellix.io; img-src 'self' https://cdn.sellix.io; manifest-src 'self'; media-src 'self'; worker-src 'none'; frame-ancestors 'none';
+  Content-Security-Policy: default-src 'self'; script-src 'report-sample' 'self' https://cdn.sellix.io https://static.cloudflareinsights.com; style-src 'report-sample' 'self' 'unsafe-inline' https://cdn.sellix.io; object-src 'none'; base-uri 'self'; connect-src 'self' https://cloudflareinsights.com; font-src 'self'; frame-src 'self' https://embed.sellix.io https://cdn.sellix.io; img-src 'self' https://cdn.sellix.io; manifest-src 'self'; media-src 'self'; worker-src 'none'; frame-ancestors 'none';
   Permissions-Policy: interest-cohort=()
