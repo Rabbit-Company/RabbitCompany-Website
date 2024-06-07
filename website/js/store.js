@@ -1,6 +1,208 @@
 var products = {
   "1": {
     "storeID": 1,
+		"productID": "645514c9ed3a9",
+    "name": "Rabbit Logo T-Shirt",
+    "description": "The Unisex Staple T-Shirt feels soft and light with just the right amount of stretch. It's comfortable and flattering for all.",
+    "price": "$29.99",
+    "variants": {
+      "Black": {
+        "color": "bg-gray-900",
+        "image": "images/products/rabbit-logo-t-shirt-black.png",
+        "size": {
+          "XS": "Black - XS",
+          "S": "Black - S",
+          "M": "Black - M",
+          "L": "Black - L",
+          "XL": "Black - XL",
+          "2XL": "Black - 2XL"
+        }
+      },
+      "White": {
+        "color": "bg-gray-100",
+        "image": "images/products/rabbit-logo-t-shirt-white.png",
+        "size": {
+          "XS": "White - XS",
+          "S": "White - S",
+          "M": "White - M",
+          "L": "White - L",
+          "XL": "White - XL",
+          "2XL": "White - 2XL"
+        }
+      }
+    }
+  },
+  "2": {
+    "storeID": 1,
+		"productID": "6662d1ddec1cd",
+    "name": "Passky Logo T-Shirt",
+    "description": "The Unisex Staple T-Shirt feels soft and light with just the right amount of stretch. It's comfortable and flattering for all.",
+    "price": "$29.99",
+    "variants": {
+      "Black": {
+        "color": "bg-gray-900",
+        "image": "images/products/passky-logo-t-shirt-black.png",
+        "size": {
+          "XS": "Black - XS",
+          "S": "Black - S",
+          "M": "Black - M",
+          "L": "Black - L",
+          "XL": "Black - XL",
+          "2XL": "Black - 2XL"
+        }
+      },
+      "White": {
+        "color": "bg-gray-100",
+        "image": "images/products/passky-logo-t-shirt-white.png",
+        "size": {
+          "XS": "White - XS",
+          "S": "White - S",
+          "M": "White - M",
+          "L": "White - L",
+          "XL": "White - XL",
+          "2XL": "White - 2XL"
+        }
+      }
+    }
+  },
+  "3": {
+    "storeID": 1,
+		"productID": "6662d28d59443",
+    "name": "Bitcoin T-Shirt",
+    "description": "The Unisex Staple T-Shirt feels soft and light with just the right amount of stretch. It's comfortable and flattering for all.",
+    "price": "$29.99",
+    "variants": {
+      "Black": {
+        "color": "bg-gray-900",
+        "image": "images/products/bitcoin-t-shirt-black.png",
+        "size": {
+          "XS": "Black - XS",
+          "S": "Black - S",
+          "M": "Black - M",
+          "L": "Black - L",
+          "XL": "Black - XL",
+          "2XL": "Black - 2XL"
+        }
+      },
+      "White": {
+        "color": "bg-gray-100",
+        "image": "images/products/bitcoin-t-shirt-white.png",
+        "size": {
+          "XS": "White - XS",
+          "S": "White - S",
+          "M": "White - M",
+          "L": "White - L",
+          "XL": "White - XL",
+          "2XL": "White - 2XL"
+        }
+      }
+    }
+  },
+  "4": {
+    "storeID": 1,
+		"productID": "6662d311767af",
+    "name": "Rabbit Company T-Shirt",
+    "description": "The Unisex Staple T-Shirt feels soft and light with just the right amount of stretch. It's comfortable and flattering for all.",
+    "price": "$29.99",
+    "variants": {
+      "Black": {
+        "color": "bg-gray-900",
+        "image": "images/products/rabbit-company-t-shirt-black.png",
+        "size": {
+          "XS": "Black - XS",
+          "S": "Black - S",
+          "M": "Black - M",
+          "L": "Black - L",
+          "XL": "Black - XL",
+          "2XL": "Black - 2XL"
+        }
+      },
+      "White": {
+        "color": "bg-gray-100",
+        "image": "images/products/rabbit-company-t-shirt-white.png",
+        "size": {
+          "XS": "White - XS",
+          "S": "White - S",
+          "M": "White - M",
+          "L": "White - L",
+          "XL": "White - XL",
+          "2XL": "White - 2XL"
+        }
+      }
+    }
+  },
+  "5": {
+    "storeID": 1,
+		"productID": "6662d36a9fa2c",
+    "name": "Rabbit Hosting T-Shirt",
+    "description": "The Unisex Staple T-Shirt feels soft and light with just the right amount of stretch. It's comfortable and flattering for all.",
+    "price": "$29.99",
+    "variants": {
+      "Black": {
+        "color": "bg-gray-900",
+        "image": "images/products/rabbit-hosting-t-shirt-black.png",
+        "size": {
+          "XS": "Black - XS",
+          "S": "Black - S",
+          "M": "Black - M",
+          "L": "Black - L",
+          "XL": "Black - XL",
+          "2XL": "Black - 2XL"
+        }
+      },
+      "White": {
+        "color": "bg-gray-100",
+        "image": "images/products/rabbit-hosting-t-shirt-white.png",
+        "size": {
+          "XS": "White - XS",
+          "S": "White - S",
+          "M": "White - M",
+          "L": "White - L",
+          "XL": "White - XL",
+          "2XL": "White - 2XL"
+        }
+      }
+    }
+  },
+  "6": {
+    "storeID": 1,
+		"productID": "6662d3b50abbb",
+    "name": "Passky T-Shirt",
+    "description": "The Unisex Staple T-Shirt feels soft and light with just the right amount of stretch. It's comfortable and flattering for all.",
+    "price": "$29.99",
+    "variants": {
+      "Black": {
+        "color": "bg-gray-900",
+        "image": "images/products/passky-t-shirt-black.png",
+        "size": {
+          "XS": "Black - XS",
+          "S": "Black - S",
+          "M": "Black - M",
+          "L": "Black - L",
+          "XL": "Black - XL",
+          "2XL": "Black - 2XL"
+        }
+      },
+      "White": {
+        "color": "bg-gray-100",
+        "image": "images/products/passky-t-shirt-white.png",
+        "size": {
+          "XS": "White - XS",
+          "S": "White - S",
+          "M": "White - M",
+          "L": "White - L",
+          "XL": "White - XL",
+          "2XL": "White - 2XL"
+        }
+      }
+    }
+  }
+}
+
+/*
+var products = {
+  "1": {
+    "storeID": 1,
     "name": "Rabbit Logo T-Shirt",
     "description": "The Unisex Staple T-Shirt feels soft and light with just the right amount of stretch. It's comfortable and flattering for all.",
     "price": "$29.99",
@@ -192,3 +394,4 @@ var products = {
     }
   }
 }
+*/

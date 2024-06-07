@@ -33,7 +33,7 @@ for(let i = 0; i < Object.keys(products[get.id].variants[get.color].size).length
 html += "</div></fieldset></div>";
 
 //Order button
-html += "<a href='https://buy.stripe.com/" + products[get.id]["variants"][get.color]["size"][get.size] + "' target='_blank' class='mt-8 w-full bg-indigo-600 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'>Order</a>";
+html += "<button data-sellix-product='" + products[get.id].productID + "' data-sellix-variant='" + products[get.id]["variants"][get.color]["size"][get.size] + "' data-sellix-step='SUMMARY' type='submit' class='mt-8 w-full bg-indigo-600 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'>Order</button>";
 
 //Description
 html += "<div class='mt-10'><h2 class='text-sm font-medium text-gray-300'>Description</h2><div class='mt-4 prose prose-sm text-gray-400'><p>" + products[get.id].description + "</p></div></div>";
