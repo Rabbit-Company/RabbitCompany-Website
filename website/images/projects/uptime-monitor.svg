@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect x="5" y="5" width="90" height="90" rx="20" ry="20" fill="url(#bgGradient)"/>
+
+  <!-- Outer pulse ring (animated) -->
+  <circle cx="50" cy="50" r="20" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="3">
+    <animate attributeName="r" values="20;30;20" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Middle pulse ring (animated, delayed) -->
+  <circle cx="50" cy="50" r="20" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2">
+    <animate attributeName="r" values="20;35;20" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0;0.4" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Main dot (solid with subtle pulse) -->
+  <circle cx="50" cy="50" r="16" fill="white">
+    <animate attributeName="r" values="16;14;16" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
